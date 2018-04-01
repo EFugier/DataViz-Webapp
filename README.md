@@ -7,6 +7,9 @@
 
 ![](https://i.imgur.com/kKKLPaU.png)
 
+## Tutorials used
+Docs + [MEVN stack 1/2](https://medium.com/@anaida07/mevn-stack-application-part-1-3a27b61dcae0) & [MEVN stack 2/2](https://medium.com/devnetwork/mevn-stack-application-part-2-2-9ebcf8a22753)
+
 # Auto-generated doc
 
 ## Build Setup
