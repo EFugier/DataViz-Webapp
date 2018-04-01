@@ -51,11 +51,11 @@ export default {
 .goto_new_post_btn {
   background: #4d7ef7;
   color: #fff;
-  padding: 10px 80px;
+  padding: 10px 10px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
-  width: 250px;
+  width: 150px;
   border: none;
   cursor: pointer;
 }
