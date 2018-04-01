@@ -26,7 +26,7 @@ export default {
   methods: {
     async getPosts () {
       const response = await PostsService.fetchPosts()
-      this.posts = response.data
+      this.posts = response.data.posts
     }
   }
 }
