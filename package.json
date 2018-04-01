@@ -1,7 +1,7 @@
 {
   "name": "~",
   "version": "1.0.0",
-  "description": "Simple dataviz webapp",
+  "description": "Simple webapp to post pots",
   "author": "EFugier <emilienfugier@gmail.com>",
   "private": true,
   "scripts": {
