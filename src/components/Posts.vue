@@ -2,7 +2,7 @@
   <div class="posts">
     <h1>Posts</h1>
     This page lists all the posts.<br>
-    - - -<br>
+    - - - - -<br>
     <!-- <router-link v-bind:to="{ name: 'NewPost' }" class="add_post_link">Add Post</router-link> -->
     <br>
     <button class="goto_new_post_btn" @click="gotoNewPost">New Post</button><br>
@@ -13,7 +13,7 @@
         <h3>{{ post.title }}</h3>
         <p>{{ post.description }}</p>
         <router-link v-bind:to="{ name: 'EditPost', params: { id: post._id } }">Edit</router-link> |
-        <a href="#" @click="deletePost(post._id)">Delete</a><br><br>
+        <a href="#" @click="deletePost(post._id)">Delete</a><br>---<br>
       </div>
     </div>
     <div v-else>

@@ -5,10 +5,10 @@
 > To be used as a template for MongoDB, Express Vue.js Node.js (MEVN stack.
 
 
-![](https://i.imgur.com/O5Z38Y8.png)
+![](https://i.imgur.com/kKKLPaU.png)
 
 # Auto-generated doc
-Z
+
 ## Build Setup
 
 ``` bash
