@@ -1,4 +1,4 @@
-# webapp
+# ~
 
 > Simple dataviz webapp
 
