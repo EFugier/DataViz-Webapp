@@ -1,7 +1,9 @@
 # ~
 
 > Simple webapp to make posts.
-> To be used as a template for MEVN stack.
+> To be used as a template for MongoDB, Express Vue.js Node.js (MEVN stack.
+
+![](https://i.imgur.com/O5Z38Y8.png)
 
 auto-generated doc
 
