@@ -9,15 +9,15 @@
     <br>
     <br>
     <div v-if="posts.length > 0" class="post-list">
-      <div v-for="post in posts" :key="post.title">
+      <div v-for="post in posts" :key="post._id">
         <h3>{{ post.title }}</h3>
         <p>{{ post.description }}</p>
         <router-link v-bind:to="{ name: 'EditPost', params: { id: post._id } }">Edit</router-link> |
-        <a href="#">Delete</a>
+        <a href="#" @click="deletePost(post._id)">Delete</a><br><br>
       </div>
     </div>
     <div v-else>
-      There are no posts.. Lets add one now<br>
+      There are no posts.. Lets add one now!<br>
     </div>
   </div>
 </template>
@@ -42,6 +42,12 @@ export default {
 
     async gotoNewPost () {
       this.$router.push({ name: 'NewPost' })
+    },
+
+    async deletePost (id) {
+      await PostsService.deletePost(id)
+      this.getPosts()
+      this.$router.push({ name: 'Posts' })
     }
   }
 }
