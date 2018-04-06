@@ -31,9 +31,7 @@ app.post('/posts', (req, res) => {
   })
 
   newPost.save(function (error) {
-    if (error) {
-      console.log(error)
-    }
+    if (error) { console.log(error) }
     res.send({
       success: true,
       message: 'Post saved successfully!'
